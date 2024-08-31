@@ -1,0 +1,18 @@
+.h-primary{
+    font-size: 2rem;
+    padding: 10px -3px;
+}
+#home p{
+    font-size: 0.85rem;
+}
+#home::before{
+    height: 280px;
+}
+.btn{
+    padding: 3px 13px;
+    margin: 15px;
+    font-size: 1rem;
+}
+#contact-box{
+    padding: 4px 2px;
+}

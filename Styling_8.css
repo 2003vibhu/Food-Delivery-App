@@ -1,0 +1,55 @@
+.h-primary{
+    font-size: 2.2rem;
+    padding: 10px -3px;
+}
+#home p{
+    font-size: 0.85rem;
+}
+#home::before{
+    height: 280px;
+}
+.btn{
+    padding: 3px 13px;
+    margin: 15px;
+    font-size: 1rem;
+}
+#logo img{
+    display: none;
+}
+#navbar ul {
+    position: fixed;
+    top: 50px;
+    left: -100%;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+#click:checked ~ .menu-btn i::before{
+    content: "\f00d";
+    z-index: -1;
+
+
+}
+#navbar ul li{
+    margin: 40px 0px;
+}
+#navbar ul li a{
+    color:rgb(154, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color:#111;
+}
+nav .menu-btn i{
+    display: block;
+    margin: 13px -4px 0px -23px;
+}
+#click:checked ~ ul{
+    left: 0%;
+}

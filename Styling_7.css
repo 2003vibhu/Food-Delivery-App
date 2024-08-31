@@ -1,0 +1,15 @@
+.h-primary{
+    font-size: 2.3rem;
+    padding: 16px -5px;
+}
+#home p{
+    font-size: 0.85rem;
+}
+#home::before{
+    height: 310px;
+}
+.btn{
+    padding: 5px 15px;
+    margin: 20px;
+    font-size: 1rem;
+}

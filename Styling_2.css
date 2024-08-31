@@ -1,0 +1,9 @@
+#services {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+}
+#services .box{
+    margin: 7px 123px;
+    padding: 26px 21px;
+}

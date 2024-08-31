@@ -1,0 +1,13 @@
+#contact{
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction:column; */
+}
+#contact img{
+width: 35%;
+margin: 30px 70px;
+}
+#contact-box{
+margin: 30px auto;
+}

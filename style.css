@@ -122,6 +122,10 @@ nav .menu-btn i{
     font-size: 1.2rem;
 }
 
+#home button a{
+    color: #fff;
+    text-decoration: none;
+}
 /* Services Section */
 
 #services {
